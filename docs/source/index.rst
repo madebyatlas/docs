@@ -2,7 +2,7 @@ Welcome to the Atlas Development documentation page!
 ===================================
 
 **Atlas Development** is a development group specializing in Discord, game, and web development.
-Feel free to join our `Discord Server <https://world.openfoodfacts.org/>`_
+Feel free to join our `Discord Server <https://discord.gg/kbvMKAG6jh>`_
 to stay up to date on our latest projects and announcements.
 
 Check out the :doc:`lenny` section for information about our newest bot,
