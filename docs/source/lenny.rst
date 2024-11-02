@@ -1,6 +1,10 @@
 Lenny
 #####
 
+.. note::
+
+   Lenny is under active development. The docs may not reflect properly with features on Lenny's current installation.
+
 .. _installation:
 
 Installation
