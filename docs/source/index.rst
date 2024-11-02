@@ -1,4 +1,4 @@
-Welcome to the Atlas Development docs page!
+Atlas Development - Documentation
 ===========================================
 
 .. note::
@@ -18,3 +18,6 @@ Contents
 .. toctree::
 
    lenny
+
+
+`Go to Main Website <https://madebyatlas.dev>`_
