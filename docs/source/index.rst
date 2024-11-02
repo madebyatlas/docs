@@ -1,13 +1,12 @@
-Welcome to Lumache's documentation!
+Welcome to the Atlas Development documentation page!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Atlas Development** is a development group specializing in Discord, game, and web development.
+Feel free to join our `Discord Server <https://world.openfoodfacts.org/>`_
+to stay up to date on our latest projects and announcements.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`lenny` section for information about our newest bot,
+including how to :ref:`installation` and :ref:`configuration` of the bot.
 
 .. note::
 
@@ -18,5 +17,4 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   lenny
