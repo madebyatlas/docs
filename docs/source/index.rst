@@ -20,4 +20,3 @@ Contents
    lenny
 
 
-`Go to Main Website <https://madebyatlas.dev>`_
