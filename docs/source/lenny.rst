@@ -72,18 +72,12 @@ Commands for Lenny are seperated into 4 categories; ``General``, ``Logging (log)
 General
 -------
 
-Basic bot info commands
-
-``/help`` : *Shows help message*
-
-``/ping`` : *Test bot response time*
-
-``/uptime`` : *Check bot runtime*
-
-``/stats`` : *Get stats about the bot*
-
-``/invite`` : *Get an invite to Lenny*
-
+Basic bot info commands \n
+``/help`` : *Shows help message* \n
+``/ping`` : *Test bot response time* \n
+``/uptime`` : *Check bot runtime* \n
+``/stats`` : *Get stats about the bot* \n
+``/invite`` : *Get an invite to Lenny* \n
 ``/premium`` : *Get info about Lenny premium*
 
 Logging
@@ -115,7 +109,7 @@ Configuration
 
 Commands for configuration of Lenny
 
-``/config`` : *Setup logging channels (See :ref:`Configuration`)*
+``/config`` : *Setup logging channels* (See `Configuration <https://docs.madebyatlas.dev/en/latest/lenny.html#configuration>`_)
 
 ``/confighelp`` : *Get specific info on log types*
 
