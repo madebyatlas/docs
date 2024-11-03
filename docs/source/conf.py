@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Atlas Development'
+project = 'Atlas Development Docs'
 copyright = '2024, Atlas Development'
 author = 'McGRiM'
 
 release = '0.1'
-version = '0.1.0'
+version = 'v0.1.0'
 
 # -- General configuration
 
