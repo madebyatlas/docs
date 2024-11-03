@@ -74,37 +74,35 @@ General
 
 Basic bot info commands
 
-* **``/help``** **: Shows help message**
+* ``/help``: Shows help message
 
-* ``/ping`` **: Test bot response time**
+* ``/ping``: Test bot response time
 
-* **``/uptime``** : Check bot runtime
+* ``/uptime`` : Check bot runtime
 
-* ** ``/stats`` ** : Get stats about the bot
+* ``/stats`` : Get stats about the bot
 
 * ``/invite`` : Get an invite to Lenny
    
 * ``/premium`` : Get info about Lenny premium
-   -
 
 Logging
 -------
 
 Logging system commands
 
-* ``/auditlog``
-   *Shows recent audit log entries*
+* ``/auditlog`` : *Shows recent audit log entries*
 
-* ``/snipe``
-   *Shows last deleted message*
+* ``/snipe`` : *Shows last deleted message*
 
 Information
 -----------
 
 Basic information commands
-* ``/userinfo`` : Get info about a user
 
-* ``/serverinfo`` : Get info about the current server
+* ``/userinfo`` : *Get info about a user*
+
+* ``/serverinfo`` : *Get info about the current server*
 
 * ``/channelinfo`` : `Get info about a channel`
 
