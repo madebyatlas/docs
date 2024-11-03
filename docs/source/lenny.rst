@@ -39,28 +39,28 @@ Parameters
    What is logged: Role Created, Role Deleted, Role Edited
 
 * ``channel_updates`` contains all updates done to a channel.
-What is logged: Channel Created, Channel Deleted, Channel Edited
+   What is logged: Channel Created, Channel Deleted, Channel Edited
 
 * ``thread_updates`` contains all updates done to a thread channel.
-What is logged: Thread Created, Thread Deleted, Thread Edited
+   What is logged: Thread Created, Thread Deleted, Thread Edited
 
 * ``emojisticker_updates`` contains all updates done to emojis and stickers.
-What is logged: Emoji Created, Sticker Created, Emoji Deleted, Sticker Deleted
+   What is logged: Emoji Created, Sticker Created, Emoji Deleted, Sticker Deleted
 
 * ``message_updates`` contains all updates done to a message.
-What is logged: Message Edited, Message Pinned, Message Published, Message Deleted
+   What is logged: Message Edited, Message Pinned, Message Published, Message Deleted
 
 * ``voice_updates`` contains all updates in a voice channel.
-What is logged: Member Connected, Member Moved, Member Disconnected, Member Streaming, Member Stopped Streaming
+   What is logged: Member Connected, Member Moved, Member Disconnected, Member Streaming, Member Stopped Streaming
 
 * ``invite_updates`` contains all updates with server invites.
-What is logged: Invite Created, Invite Deleted/Expired
+   What is logged: Invite Created, Invite Deleted/Expired
 
 * ``member_updates`` contains all updates done to a member.
-What is logged: Username/Discrim Changed, Avatar Changed
+   What is logged: Username/Discrim Changed, Avatar Changed
 
 * ``guildmember_updates`` contains all updates with a guild member.
-What is logged: Member Joined, Member Left
+   What is logged: Member Joined, Member Left
 
 
 Commands
@@ -74,7 +74,7 @@ General
 
 Basic bot info commands
 
-* ``/help`` : Shows help message
+* **``/help`` : Shows help message**
 
 * ``/ping`` : Test bot response time
 
