@@ -31,7 +31,6 @@ Parameters: ``server_updates`` ``role_updates`` ``channel_updates`` ``thread_upd
 
 Parameters
 ----------
-
 * ``server_updates`` contains the general logs of the server.
    What is logged: Name Changes, Icon Changes, Banner Changes, Default Settings Changes
 
@@ -71,7 +70,6 @@ Commands for Lenny are seperated into 4 categories; ``General``, ``Logging (log)
 
 General
 -------
-
 Basic bot info commands
 
 * ``/help``: *Shows help message*
@@ -88,7 +86,6 @@ Basic bot info commands
 
 Logging
 -------
-
 Logging system commands
 
 * ``/auditlog`` : *Shows recent audit log entries*
@@ -97,7 +94,6 @@ Logging system commands
 
 Information
 -----------
-
 Basic information commands
 
 * ``/userinfo`` : *Get info about a user*
