@@ -76,11 +76,11 @@ Basic bot info commands
 
 * **``/help``** **: Shows help message**
 
-* ``/ping`` : Test bot response time
+* ``/ping`` **: Test bot response time**
 
-* ``/uptime`` : Check bot runtime
+* **``/uptime``** : Check bot runtime
 
-* ``/stats`` : Get stats about the bot
+* ** ``/stats`` ** : Get stats about the bot
 
 * ``/invite`` : Get an invite to Lenny
 
