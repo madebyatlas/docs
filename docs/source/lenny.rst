@@ -103,9 +103,13 @@ Information
 
 Basic information commands
 * ``/userinfo`` : Get info about a user
+
 * ``/serverinfo`` : Get info about the current server
+
 * ``/channelinfo`` : `Get info about a channel`
+
 * ``/roleinfo`` : `Get info about a role`
+
 * ``messageinfo`` : `Get info about a message (Message Menu Command)`
 
 Configuration
