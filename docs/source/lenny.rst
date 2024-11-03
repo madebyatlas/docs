@@ -83,8 +83,9 @@ Basic bot info commands
 * ** ``/stats`` ** : Get stats about the bot
 
 * ``/invite`` : Get an invite to Lenny
-
+   
 * ``/premium`` : Get info about Lenny premium
+   -
 
 Logging
 -------
