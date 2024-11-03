@@ -112,7 +112,6 @@ Basic information commands
 
 Configuration
 -------------
-
 Commands for configuration of Lenny
 
 * ``/config`` : *Setup logging channels* (See `Configuration <https://docs.madebyatlas.dev/en/latest/lenny.html#configuration>`_)
