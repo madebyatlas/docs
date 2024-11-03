@@ -92,9 +92,11 @@ Logging
 
 Logging system commands
 
-``/auditlog`` : *Shows recent audit log entries*
+* ``/auditlog``
+   *Shows recent audit log entries*
 
-``/snipe`` : *Shows last deleted message*
+* ``/snipe``
+   *Shows last deleted message*
 
 Information
 -----------
