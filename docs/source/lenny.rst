@@ -72,13 +72,13 @@ Commands for Lenny are seperated into 4 categories; ``General``, ``Logging (log)
 General
 -------
 
-Basic bot info commands \n
-``/help`` : *Shows help message* \n
-``/ping`` : *Test bot response time* \n
-``/uptime`` : *Check bot runtime* \n
-``/stats`` : *Get stats about the bot* \n
-``/invite`` : *Get an invite to Lenny* \n
-``/premium`` : *Get info about Lenny premium*
+Basic bot info commands
+\n``/help`` : *Shows help message*
+\n``/ping`` : *Test bot response time*
+\n``/uptime`` : *Check bot runtime*
+\n``/stats`` : *Get stats about the bot*
+\n``/invite`` : *Get an invite to Lenny*
+\n``/premium`` : *Get info about Lenny premium*
 
 Logging
 -------
