@@ -32,11 +32,11 @@ Parameters: ``server_updates`` ``role_updates`` ``channel_updates`` ``thread_upd
 Parameters
 ----------
 
-``server_updates`` contains the general logs of the server.
-What is logged: Name Changes, Icon Changes, Banner Changes, Default Settings Changes
+* ``server_updates`` contains the general logs of the server.
+   What is logged: Name Changes, Icon Changes, Banner Changes, Default Settings Changes
 
-``role_updates`` contains all updates done to a role.
-What is logged: Role Created, Role Deleted, Role Edited
+* ``role_updates`` contains all updates done to a role.
+   What is logged: Role Created, Role Deleted, Role Edited
 
 ``channel_updates`` contains all updates done to a channel.
 What is logged: Channel Created, Channel Deleted, Channel Edited
@@ -72,13 +72,13 @@ Commands for Lenny are seperated into 4 categories; ``General``, ``Logging (log)
 General
 -------
 
-Basic bot info commands<br>
-``/help`` : *Shows help message*<br>
-``/ping`` : *Test bot response time*<br>
-``/uptime`` : *Check bot runtime*<br>
-``/stats`` : *Get stats about the bot*<br>
-``/invite`` : *Get an invite to Lenny*<br>
-``/premium`` : *Get info about Lenny premium*
+Basic bot info commands
+* ``/help`` : Shows help message
+* ``/ping`` : Test bot response time
+* ``/uptime`` : Check bot runtime
+* ``/stats`` : Get stats about the bot
+* ``/invite`` : Get an invite to Lenny
+* ``/premium`` : Get info about Lenny premium
 
 Logging
 -------
