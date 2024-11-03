@@ -32,33 +32,76 @@ Parameters: ``server_updates`` ``role_updates`` ``channel_updates`` ``thread_upd
 Parameters
 ----------
 
-#. ``server_updates`` contains the general logs of the server.
+``server_updates`` contains the general logs of the server.
 What is logged: Name Changes, Icon Changes, Banner Changes, Default Settings Changes
 
-#. ``role_updates`` contains all updates done to a role.
+``role_updates`` contains all updates done to a role.
 What is logged: Role Created, Role Deleted, Role Edited
 
-#. ``channel_updates`` contains all updates done to a channel.
+``channel_updates`` contains all updates done to a channel.
 What is logged: Channel Created, Channel Deleted, Channel Edited
 
-#. ``thread_updates`` contains all updates done to a thread channel.
+``thread_updates`` contains all updates done to a thread channel.
 What is logged: Thread Created, Thread Deleted, Thread Edited
 
-#. ``emojisticker_updates`` contains all updates done to emojis and stickers.
+``emojisticker_updates`` contains all updates done to emojis and stickers.
 What is logged: Emoji Created, Sticker Created, Emoji Deleted, Sticker Deleted
 
-#. ``message_updates`` contains all updates done to a message.
+``message_updates`` contains all updates done to a message.
 What is logged: Message Edited, Message Pinned, Message Published, Message Deleted
 
-#. ``voice_updates`` contains all updates in a voice channel.
+``voice_updates`` contains all updates in a voice channel.
 What is logged: Member Connected, Member Moved, Member Disconnected, Member Streaming, Member Stopped Streaming
 
-#. ``invite_updates`` contains all updates with server invites.
+``invite_updates`` contains all updates with server invites.
 What is logged: Invite Created, Invite Deleted/Expired
 
-#. ``member_updates`` contains all updates done to a member.
+``member_updates`` contains all updates done to a member.
 What is logged: Username/Discrim Changed, Avatar Changed
 
-#. ``guildmember_updates`` contains all updates with a guild member.
+``guildmember_updates`` contains all updates with a guild member.
 What is logged: Member Joined, Member Left
 
+
+Commands
+========
+
+Commands for Lenny are seperated into 4 categories; ``General``, ``Logging (log)``, ``Information (info)``, and ``Configuration (config)``
+
+
+General
+-------
+
+Basic bot info commands
+``/help`` : *Shows help message*
+``/ping`` : *Test bot response time*
+``/uptime`` : *Check bot runtime*
+``/stats`` : *Get stats about the bot*
+``/invite`` : *Get an invite to Lenny*
+``/premium`` : *Get info about Lenny premium*
+
+Logging
+-------
+
+Logging system commands
+``/auditlog`` : *Shows recent audit log entries*
+``/snipe`` : *Shows last deleted message*
+
+Information
+-----------
+
+Basic information commands
+``/userinfo`` : *Get info about a user*
+``/serverinfo`` : *Get info about the current server*
+``/channelinfo`` : *Get info about a channel*
+``/roleinfo`` : *Get info about a role*
+``messageinfo`` : *Get info about a message (Message Menu Command)*
+
+Configuration
+-------------
+
+Commands for configuration of Lenny
+``/config`` : *Setup logging channels (See :ref:`Configuration`)*
+``/confighelp`` : *Get specific info on log types*
+``/configview`` : *View stored config data*
+``/configclear`` : *Clears stored config data*
