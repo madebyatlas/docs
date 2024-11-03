@@ -74,7 +74,7 @@ General
 
 Basic bot info commands
 
-* **``/help`` : Shows help message**
+* **``/help``** **: Shows help message**
 
 * ``/ping`` : Test bot response time
 
