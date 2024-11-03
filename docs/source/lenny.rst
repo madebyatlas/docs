@@ -74,17 +74,17 @@ General
 
 Basic bot info commands
 
-* ``/help``: Shows help message
+* ``/help``: *Shows help message*
 
-* ``/ping``: Test bot response time
+* ``/ping``: *Test bot response time*
 
-* ``/uptime`` : Check bot runtime
+* ``/uptime`` : *Check bot runtime*
 
-* ``/stats`` : Get stats about the bot
+* ``/stats`` : *Get stats about the bot*
 
-* ``/invite`` : Get an invite to Lenny
+* ``/invite`` : *Get an invite to Lenny*
    
-* ``/premium`` : Get info about Lenny premium
+* ``/premium`` : *Get info about Lenny premium*
 
 Logging
 -------
@@ -108,17 +108,17 @@ Basic information commands
 
 * ``/roleinfo`` : `Get info about a role`
 
-* ``messageinfo`` : `Get info about a message (Message Menu Command)`
+* ``messageinfo`` : `Get info about a message` (``Message Menu Command``)
 
 Configuration
 -------------
 
 Commands for configuration of Lenny
 
-``/config`` : *Setup logging channels* (See `Configuration <https://docs.madebyatlas.dev/en/latest/lenny.html#configuration>`_)
+* ``/config`` : *Setup logging channels* (See `Configuration <https://docs.madebyatlas.dev/en/latest/lenny.html#configuration>`_)
 
-``/confighelp`` : *Get specific info on log types*
+* ``/confighelp`` : *Get specific info on log types*
 
-``/configview`` : *View stored config data*
+* ``/configview`` : *View stored config data*
 
-``/configclear`` : *Clears stored config data*
+* ``/configclear`` : *Clears stored config data*
