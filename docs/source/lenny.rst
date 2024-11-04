@@ -32,7 +32,7 @@ Parameters: ``server_updates`` ``role_updates`` ``channel_updates`` ``thread_upd
 
    At the current moment, all log channels must be set up at the same time and individual setup, editing, or delection is not available.
    
-   A feature to individually configure is currently in the backlog and we do not have an expected release date for it.
+   This feature to individually configure is currently in the backlog and we do not have an expected release date for it.
 
 
 Parameters
@@ -123,3 +123,10 @@ Commands for configuration of Lenny
 * ``/configview`` : *View stored config data*
 
 * ``/configclear`` : *Clears stored config data*
+.. warning::
+
+   ``/configclear`` will permanently delete all stored configuration data for your server.
+
+   At the current moment, individual deletion of log channels is not available. This feature, however, is currently in the backlog, but we do not have an expected release date for it.
+
+   
