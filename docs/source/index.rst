@@ -18,7 +18,7 @@ Contents
 .. toctree::
 
    lenny
-   ban database
+      ban database
    links
 
 
