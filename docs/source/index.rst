@@ -21,6 +21,7 @@ Contents
 
    lenny
    ban database
+   faq
    links
 
 
