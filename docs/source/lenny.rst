@@ -31,6 +31,7 @@ Parameters: ``server_updates`` ``role_updates`` ``channel_updates`` ``thread_upd
 .. note::
 
    At the current moment, all log channels must be set up at the same time and individual setup, editing, or delection is not available.
+   
    A feature to individually configure is currently in the backlog and we do not have an expected release date for it.
 
 
