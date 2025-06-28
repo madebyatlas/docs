@@ -23,7 +23,7 @@ To add Ban Database to your server, use one of the following links:
 Configuration
 =============
 
-Configuration for Ban Database is simple and can all done on Discord with the ``/config set`` command, or on our `web dashboard <https://bd.madebyatlas.dev>`.
+Configuration for Ban Database is simple and can all done on Discord with the ``/config set`` command, or on our `web dashboard <https://bd.madebyatlas.dev>`_.
 
 The ``/config set`` command will require multiple parameters for selecting which role will be pinged, what channel will recieve logs, and what (if any) automod action should be carried out.
 Parameters: ``modrole`` ``alertchannel`` ``modaction``
