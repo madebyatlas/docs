@@ -41,7 +41,7 @@ Parameters
 Commands
 ========
 
-Commands for Ban Database are seperated into 3 categories; ``General``, ``Information``, and ``Configuration``
+Commands for Ban Database are seperated into 3 categories; ``General``, ``Database``, and ``Configuration``
 
 
 General
