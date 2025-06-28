@@ -7,7 +7,7 @@ copyright = '2024, Atlas Development'
 author = 'McGRiM'
 
 release = '0.1'
-version = 'v0.1.0'
+version = 'v0.1.2'
 
 # -- General configuration
 
