@@ -6,8 +6,10 @@ Links
 -----------------------------------------------
 `Status Page <https://status.madebyatlas.dev>`_
 -----------------------------------------------
-`E-mail <mailto:atlasdevelopmentus@outlook.com?>`_
---------------------------------------------------
+`Ban Database Dashboard <https://bd.madebyatlas.dev>`_
+------------------------------------------------------
+`Data Removal <https://madebyatlas.dev/data-removal>`_
+------------------------------------------------------
 `Discord Server <https://discord.gg/kbvMKAG6jh>`_
 -------------------------------------------------
 `Terms of Use <https://madebyatlas.dev/terms>`_
