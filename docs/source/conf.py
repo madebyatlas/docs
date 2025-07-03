@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Atlas Development Docs'
-copyright = '2024, Atlas Development'
+copyright = '2024-2025, Atlas Development'
 author = 'McGRiM'
 
 release = '0.1'
