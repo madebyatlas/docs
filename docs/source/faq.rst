@@ -43,7 +43,7 @@ Q: Where do I request deletion of my server’s stored data in Ban Database?
 
 Q: I was blacklisted from using Ban Database, can I appeal this?
 ^^^^^
-**A:** We allow blacklist apppeals. `[Blacklist Appeal Form] <https://forms.gle/rDwdaNGzm8B7mNg4A>`_
+**A:** We allow blacklist apppeals. `[Blacklist Appeal Form] <https://madebyatlas.dev/blacklist-appeal>`_
 
 Q: My server was blacklisted from using/inviting Ban Database, can I appeal this?
 ^^^^^
