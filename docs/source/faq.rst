@@ -29,7 +29,7 @@ Q: I was assigned the 'Limited' role, what does this mean?
 
 Q: Can I have a bot made for me?
 ^^^^^
-**A:** Here at Atlas Development we run on a vouch system. Meaning that we do not make bots for just anyone, you will first need to be vouched for by a ``Trusted Developer``, ``Server Admin``, ``Community Lead``, or a ``Atlas Developer``. Please do not DM these people asking for them to vouch for you, you will be banned. Also just because you get vouched for does not mean that a bot will be made for you. Atlas Developers reserve the right to deny any request for a custom bot for __any reason__.
+**A:** Here at Atlas Development we run on a vouch system. Meaning that we do not make bots for just anyone, you will first need to be vouched for by a ``Trusted Developer``, ``Server Admin``, ``Community Lead``, or a ``Atlas Developer``. Please do not DM these people asking for them to vouch for you, you will be banned. Also just because you get vouched for does not mean that a bot will be made for you. Atlas Developers reserve the right to deny any request for a custom bot for **any reason**.
 
 Bot Q/A:
 --------
