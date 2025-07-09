@@ -175,7 +175,7 @@ Query Parameters
      - Value
      - Other Info
    * - ``:type``
-     - ``sunset`` ``cliff`` ``skyline`` ``gaming``
+     - ``bmw`` ``cliff`` ``gaming`` ``minecraft`` ``skyline`` ``sunset``
      - Required
    * - ``:format``
      - ``1`` ``2`` ``3`` ``4`` ``5``
