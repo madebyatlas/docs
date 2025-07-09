@@ -29,7 +29,7 @@ Query Parameters
      - ``encode`` ``decode``
      - Not Required, Defaults to ``encode``
    * - ``text``
-     - ``Plain text for ``encode``, base64 for ``decode``
+     - Plain text for ``encode``, base64 for ``decode``
      - Required
 
 Example Usage
