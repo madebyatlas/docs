@@ -12,9 +12,11 @@ Atlas API
 Endpoints
 #####
 
+------------------------
+
 Base64
 =====
-``/base64``
+``/base64`` // Encode or decode base64
 
 Query Parameters
 -----
@@ -22,7 +24,7 @@ Query Parameters
    :widths: 25 25 25
    :header-rows: 1
 
-   * - Parameter
+   * - Query
      - Value
      - Other Info
    * - ``mode``
@@ -35,4 +37,98 @@ Query Parameters
 Example Usage
 -----
 ``https://api.madebyatlas.dev/base64?mode=decode&text=bWNncmlt``
-* Output: ``mcgrim``
+
+* Output: ``{"mode":"decode","input":"bWNncmlt","result":"mcgrim"}``
+
+------------------------
+
+Colors
+======
+``/colors`` // Get dominant colors from an image
+
+Query Parameters
+-----
+.. list-table:: 
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Query
+     - Value
+     - Other Info
+   * - ``image``
+     - ``<link>``
+     - Required
+
+Example Usage
+-----
+``https://api.madebyatlas.dev/colors?image=https://i.imgur.com/WJnuC0v.png``
+
+* Output: ``{"dominantColor":{"name":"Mine Shaft","hex":"#2F3136","rgb":[47,49,54]}}``
+
+------------------------
+
+Filters
+=====
+``/filters/:type`` // Apply filter to an image
+
+Query Parameters
+-----
+.. list-table:: 
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Query
+     - Value
+     - Other Info
+   * - ``:type``
+     - ``red`` ``green`` ``blue`` ``grayscale`` ``blur`` ``pixelate``
+     - Required
+   * - ``image``
+     - ``<link>``
+     - Required
+
+Example Usage
+-----
+``https://api.madebyatlas.dev/filters/pixelate?image=https://i.imgur.com/WJnuC0v.png``
+
+* Output: ``Image``
+
+------------------------
+
+Password
+=====
+``/password`` // Generate a password
+
+Query Parameters
+-----
+.. list-table:: 
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Query
+     - Value
+     - Other Info
+   * - ``uppercase``
+     - ``true`` ``false``
+     - Not Required, Defaults to ``true``
+   * - ``lowercase``
+     - ``true`` ``false``
+     - Not Required, Defaults to ``true``
+   * - ``numbers``
+     - ``true`` ``false``
+     - Not Required, Defaults to ``true``
+   * - ``symbols``
+     - ``true`` ``false``
+     - Not Required, Defaults to ``false``
+   * - ``length``
+     - ``<number 1-1000>``
+     - Not Required, Defaults to ``12``
+   * - ``count``
+     - ``<number 1-10>``
+     - Not Required, Defaults to ``1``
+
+Example Usage
+-----
+``https://api.madebyatlas.dev/password?length=20&count=2uppercase=false&symbols=true``
+
+* Output: ``{"passwords":["1u(?=r%{5+8f%7{_6:j6","8c)v2:x5vi27|g=^@[&y"]}``
