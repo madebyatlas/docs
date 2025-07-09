@@ -24,7 +24,7 @@ Contents
 
    lenny
    ban database
-   api
+   atlas api
    faq
    links
 
