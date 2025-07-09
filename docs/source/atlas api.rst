@@ -95,6 +95,34 @@ Example Usage
 
 ------------------------
 
+Overlays
+=====
+``/overlays/:type`` // Add an overlay to an image
+
+Query Parameters
+-----
+.. list-table:: 
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Query
+     - Value
+     - Other Info
+   * - ``:type``
+     - ``wanted`` ``wasted`` ``vicroyale``
+     - Required
+   * - ``image``
+     - ``<link>``
+     - Required
+
+Example Usage
+-----
+``https://api.madebyatlas.dev/overlays/wasted?image=https://i.imgur.com/WJnuC0v.png``
+
+* Output: ``Image``
+
+------------------------
+
 Password
 =====
 ``/password`` // Generate a password
@@ -129,6 +157,46 @@ Query Parameters
 
 Example Usage
 -----
-``https://api.madebyatlas.dev/password?length=20&count=2uppercase=false&symbols=true``
+``https://api.madebyatlas.dev/password?length=20&count=2&uppercase=false&symbols=true``
 
 * Output: ``{"passwords":["1u(?=r%{5+8f%7{_6:j6","8c)v2:x5vi27|g=^@[&y"]}``
+
+Welcome Image
+=====
+``/welcome/:type/:format`` // Generate a Discord welcome image
+
+Query Parameters
+-----
+.. list-table:: 
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Query
+     - Value
+     - Other Info
+   * - ``:type``
+     - ``sunset`` ``cliff`` ``skyline`` ``gaming``
+     - Required
+   * - ``:format``
+     - ``1`` ``2`` ``3`` ``4`` ``5``
+     - Required
+   * - ``username``
+     - ``<text>``
+     - Required for all formats
+   * - ``avatar``
+     - ``<link>``
+     - Required for formats 2-5, Do not input for format 1
+   * - ``servername``
+     - ``<text>``
+     - Required for formats 3-5, Do not input for formats 1-2
+   * - ``membercount``
+     - ``<number>``
+     - Required for formats 4-5, Do not input for formats 1-3
+
+Example Usage
+-----
+``https://api.madebyatlas.dev/welcome/cliff/1?username=McGRiM&servername=Atlas%20Development``
+
+* Output: ``Image``
+
+------------------------
