@@ -70,6 +70,7 @@ Example Usage
 Crop
 -----
 ``/crop`` // Crop and adjust an image
+
 Query Parameters
 ~~~~~
 .. list-table:: 
