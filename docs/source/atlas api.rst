@@ -165,7 +165,7 @@ Example Usage
 
 Welcome Image
 -----
-``/welcome/:type/:format`` // Generate a Discord welcome image
+``/welcome/:background/:format`` // Generate a Discord welcome image
 
 Query Parameters
 ~~~~~
@@ -176,24 +176,24 @@ Query Parameters
    * - Query
      - Value
      - Other Info
-   * - ``:type``
+   * - ``:background``
      - ``bmw`` ``cliff`` ``gaming`` ``minecraft`` ``skyline`` ``sunset``
      - Required
    * - ``:format``
-     - ``1`` ``2`` ``3`` ``4`` ``5``
+     - ``1`` ``2`` ``3`` ``4``
      - Required
    * - ``username``
      - ``<text>``
      - Required for all formats
    * - ``avatar``
      - ``<link>``
-     - Required for formats 2-5, Do not input for format 1
+     - Required for formats 2-4
    * - ``servername``
      - ``<text>``
-     - Required for formats 3-5, Do not input for formats 1-2
+     - Required for formats 3-4
    * - ``membercount``
      - ``<number>``
-     - Required for formats 4-5, Do not input for formats 1-3
+     - Required for format 4
 
 Example Usage
 ~~~~~
