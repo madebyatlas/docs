@@ -10,16 +10,16 @@ Atlas API
    Please note that the following documentation may not accurately reflect the API and its features due to ongoing development.
 
 Endpoints
-#####
+=====
 
 ------------------------
 
 Base64
-=====
+-----
 ``/base64`` // Encode or decode base64
 
 Query Parameters
------
+~~~~~
 .. list-table:: 
    :widths: 25 25 25
    :header-rows: 1
@@ -35,7 +35,7 @@ Query Parameters
      - Required
 
 Example Usage
------
+~~~~~
 ``https://api.madebyatlas.dev/base64?mode=decode&text=bWNncmlt``
 
 * Output: ``{"mode":"decode","input":"bWNncmlt","result":"mcgrim"}``
@@ -43,11 +43,11 @@ Example Usage
 ------------------------
 
 Colors
-======
+-----
 ``/colors`` // Get dominant colors from an image
 
 Query Parameters
------
+~~~~~
 .. list-table:: 
    :widths: 25 25 25
    :header-rows: 1
@@ -60,7 +60,7 @@ Query Parameters
      - Required
 
 Example Usage
------
+~~~~~
 ``https://api.madebyatlas.dev/colors?image=https://i.imgur.com/WJnuC0v.png``
 
 * Output: ``{"dominantColor":{"name":"Mine Shaft","hex":"#2F3136","rgb":[47,49,54]}}``
@@ -68,11 +68,11 @@ Example Usage
 ------------------------
 
 Filters
-=====
+-----
 ``/filters/:type`` // Apply filter to an image
 
 Query Parameters
------
+~~~~~
 .. list-table:: 
    :widths: 25 25 25
    :header-rows: 1
@@ -88,7 +88,7 @@ Query Parameters
      - Required
 
 Example Usage
------
+~~~~~
 ``https://api.madebyatlas.dev/filters/pixelate?image=https://i.imgur.com/WJnuC0v.png``
 
 * Output: ``Image``
@@ -96,11 +96,11 @@ Example Usage
 ------------------------
 
 Overlays
-=====
+-----
 ``/overlays/:type`` // Add an overlay to an image
 
 Query Parameters
------
+~~~~~
 .. list-table:: 
    :widths: 25 25 25
    :header-rows: 1
@@ -116,7 +116,7 @@ Query Parameters
      - Required
 
 Example Usage
------
+~~~~~
 ``https://api.madebyatlas.dev/overlays/wasted?image=https://i.imgur.com/WJnuC0v.png``
 
 * Output: ``Image``
@@ -124,11 +124,11 @@ Example Usage
 ------------------------
 
 Password
-=====
+-----
 ``/password`` // Generate a password
 
 Query Parameters
------
+~~~~~
 .. list-table:: 
    :widths: 25 25 25
    :header-rows: 1
@@ -156,17 +156,17 @@ Query Parameters
      - Not Required, Defaults to ``1``
 
 Example Usage
------
+~~~~~
 ``https://api.madebyatlas.dev/password?length=20&count=2&uppercase=false&symbols=true``
 
 * Output: ``{"passwords":["1u(?=r%{5+8f%7{_6:j6","8c)v2:x5vi27|g=^@[&y"]}``
 
 Welcome Image
-=====
+-----
 ``/welcome/:type/:format`` // Generate a Discord welcome image
 
 Query Parameters
------
+~~~~~
 .. list-table:: 
    :widths: 25 25 25
    :header-rows: 1
@@ -194,7 +194,7 @@ Query Parameters
      - Required for formats 4-5, Do not input for formats 1-3
 
 Example Usage
------
+~~~~~
 ``https://api.madebyatlas.dev/welcome/cliff/1?username=McGRiM&servername=Atlas%20Development``
 
 * Output: ``Image``
