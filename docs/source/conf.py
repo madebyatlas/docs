@@ -6,8 +6,8 @@ project = 'Atlas Development Docs'
 copyright = '2024-2025, Atlas Development'
 author = 'McGRiM'
 
-release = '0.1'
-version = 'v0.1.2'
+release = '1.0'
+version = 'v1'
 
 # -- General configuration
 
