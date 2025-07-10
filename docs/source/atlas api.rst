@@ -231,6 +231,6 @@ Query Parameters
 
 Example Usage
 ~~~~~
-``https://api.madebyatlas.dev/welcome/cliff/1?username=McGRiM&servername=Atlas%20Development``
+``https://api.madebyatlas.dev/welcome/cliff/2?username=McGRiM&avatar=https://i.imgur.com/BAfjBqz.png``
 
 * Output: ``Image``
