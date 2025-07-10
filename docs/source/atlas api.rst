@@ -67,6 +67,39 @@ Example Usage
 
 ================================
 
+Crop
+-----
+``/crop`` // Crop and adjust an image
+Query Parameters
+~~~~~
+.. list-table:: 
+   :widths: 25 25 25
+   :header-rows: 1
+
+   * - Query
+     - Value
+     - Other Info
+   * - ``style``
+     - ``circle`` ``oval`` ``rectangle`` ``verticalrectangle`` ``pentagon`` ``hexagon`` ``octagon``
+     - Required
+   * - ``image``
+     - ``<link>``
+     - Required
+   * - ``rotation``
+     - ``<number>``
+     - Not Required, Defaults to 0°
+   * - ``scale``
+     - ``<number>``
+     - Not Required, Defaults to 1.0
+
+Example Usage
+~~~~~
+``https://api.madebyatlas.dev/colors?image=https://i.imgur.com/WJnuC0v.png``
+
+* Output: ``{"dominantColor":{"name":"Mine Shaft","hex":"#2F3136","rgb":[47,49,54]}}``
+
+================================
+
 Filters
 -----
 ``/filters/:type`` // Apply filter to an image
