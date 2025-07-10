@@ -95,9 +95,9 @@ Query Parameters
 
 Example Usage
 ~~~~~
-``https://api.madebyatlas.dev/colors?image=https://i.imgur.com/WJnuC0v.png``
+``https://api.madebyatlas.dev/crop?style=octagon&image=https://i.imgur.com/BAfjBqz.png``
 
-* Output: ``{"dominantColor":{"name":"Mine Shaft","hex":"#2F3136","rgb":[47,49,54]}}``
+* Output: ``Image``
 
 ================================
 
