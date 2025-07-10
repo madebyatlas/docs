@@ -5,7 +5,7 @@ Atlas Development - Documentation
 
    This documentation page is under active development.
 
-   Last updated: July 9, 2025
+   Last updated: July 10, 2025
 
 **Atlas Development** is a development group specializing in Discord, game, and web development.
 Feel free to join our `Discord Server <https://discord.gg/kbvMKAG6jh>`_
