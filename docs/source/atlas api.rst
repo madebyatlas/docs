@@ -12,7 +12,7 @@ Atlas API
 Endpoints
 =====
 
-------------------------
+================================
 
 Base64
 -----
@@ -40,7 +40,7 @@ Example Usage
 
 * Output: ``{"mode":"decode","input":"bWNncmlt","result":"mcgrim"}``
 
-------------------------
+================================
 
 Colors
 -----
@@ -65,7 +65,7 @@ Example Usage
 
 * Output: ``{"dominantColor":{"name":"Mine Shaft","hex":"#2F3136","rgb":[47,49,54]}}``
 
-------------------------
+================================
 
 Filters
 -----
@@ -93,7 +93,7 @@ Example Usage
 
 * Output: ``Image``
 
-------------------------
+================================
 
 Overlays
 -----
@@ -121,7 +121,7 @@ Example Usage
 
 * Output: ``Image``
 
-------------------------
+================================
 
 Password
 -----
@@ -161,6 +161,8 @@ Example Usage
 
 * Output: ``{"passwords":["1u(?=r%{5+8f%7{_6:j6","8c)v2:x5vi27|g=^@[&y"]}``
 
+================================
+
 Welcome Image
 -----
 ``/welcome/:type/:format`` // Generate a Discord welcome image
@@ -198,5 +200,3 @@ Example Usage
 ``https://api.madebyatlas.dev/welcome/cliff/1?username=McGRiM&servername=Atlas%20Development``
 
 * Output: ``Image``
-
-------------------------
