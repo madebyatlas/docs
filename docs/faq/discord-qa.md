@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 # Discord Q/A
+FAQ related to the Atlas Discord server
 
 ### Q: Can I invite my friend to the server?
 **A:** Of course! We allow everyone to join the server, just send them one of these invites: [https://discord.gg/atlasdev](https://discord.gg/atlasdev) or [https://discord.gg/kbvMKAG6jh](https://discord.gg/kbvMKAG6jh)

@@ -2,7 +2,8 @@
 sidebar_position: 2
 ---
 
-## Bot Q/A
+# Bot Q/A
+FAQ related to Atlas Discord Bots
 
 ### Q: Can I have the code for.....?
 **A:** If the bot is listed as open-source, then go find it on our [Github](https://github.com/madebyatlas). If the bot is not listed as open source then no, why would we give you it?
