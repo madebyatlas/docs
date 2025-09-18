@@ -132,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2021-${new Date().getFullYear()} Atlas Development US. Built with Docusaurus.`,
+        copyright: `Copyright © 2021-${new Date().getFullYear()} Atlas Development US`,
       },
       prism: {
         theme: prismThemes.github,
