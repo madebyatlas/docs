@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Secure. Reliable.',
+    title: 'Secure & Reliable',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
