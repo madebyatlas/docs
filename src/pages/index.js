@@ -31,7 +31,6 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
-  const url = useBaseUrl('/docs/');
   return (
     <Layout
       title={`${siteConfig.title}`}
