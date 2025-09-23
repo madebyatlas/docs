@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+title: Home
+description: Welcome to Atlas Development
 ---
 
 # Atlas Development Documentation
