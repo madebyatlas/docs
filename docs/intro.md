@@ -1,6 +1,7 @@
 ---
 title: Home
 description: Welcome to Atlas Development
+sidebar_position: 1
 ---
 
 # Atlas Development Documentation
