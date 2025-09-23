@@ -10,7 +10,7 @@ const config = {
   },
 
   url: 'https://docs.madebyatlas.dev',
-  baseUrl: '/',
+  baseUrl: '/docs/intro',
 
   organizationName: 'madebyatlas',
   projectName: 'docs',
