@@ -28,11 +28,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Here at Atlas we strive to maintain our data integrity and keep your data
-        out of the hands of brokers and malicious people. We do this by using state
-        of the art servers with superior security, with these servers come unmatched
-        reliability, we strive for a 100% uptime to ensure you and your team recieve
-        the best service possible.
+        We use state of the art servers with superior security and unmatched 
+        reliability, we strive for a 100% uptime to ensure you and your team 
+        recieve the best service possible.
       </>
     ),
   },
