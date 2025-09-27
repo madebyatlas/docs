@@ -17,6 +17,24 @@ import ApiEndpoint from '@site/src/components/ApiEndpoint';
    Please note that the following documentation may not accurately reflect the API and its features due to ongoing development.
 :::
 
+## Ban Database
+
+<ApiEndpoint method="GET" path="/bandatabase" />
+Perform a check on a user id to see if they are in the ban database
+
+## Query Parameters
+| Query  | Value                                        | Other Info                       |
+|--------|----------------------------------------------|----------------------------------|
+| `id` | `<user-id>`                                    | Required                         |
+
+### Example Usage
+
+<ApiEndpoint method="GET" path="/bandatabase?id=734511886464188436" />
+
+* Output: ``{"id":"735456420878876682","reason":"REASON TEXT HERE","evidence":"EVIDENCE LINK(S) HERE"}``
+
+================================
+
 ## Base64
 
 <ApiEndpoint method="GET" path="/base64" />
