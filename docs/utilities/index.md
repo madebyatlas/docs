@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Embed Builder
+# Discord Utilities
 
 :::warning
 This documentation page has not been published.
