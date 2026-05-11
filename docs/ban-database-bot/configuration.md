@@ -15,12 +15,10 @@ Configure Ban Database via our web dashboard at [bd.madebyatlas.dev](https://bd.
 Configure Ban Database on Discord with the `/config set` command, this will require multiple parameters for configuring; which role will be pinged, what channel will recieve logs, and what (if any) automod action should be carried out.
 
 ### Example Command:
-`/config set modrole:@Moderator alertchannel:#mod-log modaction:Alert Only`
-- This would set **#mod-logs** as the alert channel and would ping **@Moderator** with just an alert and carry out no auto mod action.
+`/config set modrole:@Moderator alertchannel:#mod-log`
+- This would set **#mod-logs** as the alert channel and would ping **@Moderator** when a flagged user joins the server.
 
 # Configuration Parameters
 - `modrole` // What role will be pinged in the event of an alert.
 
 - `alertchannel` // What channel alerts/logs will be sent to.
-
-- `modaction` // What action is automatically carried out upon a user who joins and is in the database.

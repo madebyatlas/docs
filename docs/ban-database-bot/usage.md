@@ -33,7 +33,11 @@ We allow submissions for all kinds of different reasons, including but not limit
 
 ## Uploading Evidence
 
-When uploading images please use a trusted image/video host (i.e Imgur/Streamable). Submissions containing shady links or links not from a trusted provider (e.g my-pc-screenshot.this-is-an-image-host.com), will be denied.
+When uploading images please use a trusted image/video host (i.e Imgur/Streamable). Submissions containing shady links or links not from a trusted provider (e.g my-pc-screenshot.this-is-an-image-host.com), will be denied. You can also upload image/video files via the submissions portal on our [web dashboard](https://bd.madebyatlas.dev).
+
+### Portal Uploads
+
+Our [web dashboard](https://bd.madebyatlas.dev/) allows users to upload files like `.png`, `.jpg`, and `.mp4` files directly without the need for uploading to a public image host. Please note that by uploading files via the Submissions Portal you give Atlas Development the permission to store, use, and distribute the file for uses described under our [Terms of Use](https://madebyatlas.dev/terms). Our [Privacy Policy](https://madebyatlas.dev/privacy) also applies.
 
 ### Using Imgur
 

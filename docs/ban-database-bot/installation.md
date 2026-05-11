@@ -6,7 +6,7 @@ sidebar_position: 1
 
 To add Ban Database to your server, use one of the following links:
 
-[Minimum Permissions](https://discord.com/oauth2/authorize?client_id=734511886464188436&permissions=1101659622470&redirect_uri=https://discord.gg/kbvMKAG6jh&response_type=code&scope=bot+applications.commands)
+[Minimum Permissions](https://discord.com/oauth2/authorize?client_id=1496387208385400883&permissions=2147994688&scope=bot+applications.commands)
 
-[Administrator Permissions](https://discord.com/oauth2/authorize?client_id=734511886464188436&permissions=8&redirect_uri=https://discord.gg/kbvMKAG6jh&response_type=code&scope=bot+applications.commands)
+[Administrator Permissions](https://discord.com/oauth2/authorize?client_id=1496387208385400883&permissions=8&scope=bot+applications.commands)
 

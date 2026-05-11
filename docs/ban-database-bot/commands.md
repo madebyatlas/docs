@@ -9,7 +9,7 @@ Commands for Ban Database are seperated into 3 categories; General, Database, an
 ## General
 Basic bot info commands
 
-`/help` : Shows all commands
+`/help` : Shows all commands, *optional* `command` *parameter for specific command info*
 
 `/ping` : Test bot response time
 
