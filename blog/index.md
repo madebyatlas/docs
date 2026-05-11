@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [mcgrim, jomsei, nick]
+authors: [mcgrim, jomsei]
 tags: []
 ---
 

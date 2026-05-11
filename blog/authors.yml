@@ -6,7 +6,7 @@ mcgrim:
   page: true
   socials:
     github: mcgrimtv
-    website: https://madebyatlas.dev
+    website: https://mcgrim.dev
     
 
 jomsei:
@@ -19,12 +19,13 @@ jomsei:
     github: jomsei
     website: https://madebyatlas.dev
 
+
 nick:
   name: Nick
   title: FiveM Developer
   url: https://github.com/nicklancaster
   image_url: https://cdn.discordapp.com/avatars/636343619376381973/cd987e2d9fa6d57bc0ae5e8717e882b5.png?size=4096
-  page: true
+  page: false
   socials:
     website: https://madebyatlas.dev
   
